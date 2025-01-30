@@ -17,6 +17,21 @@
             border: none;
         }
     </style>
+    <!-- Frame Embed Meta Tag -->
+    <meta name="fc:frame" content='{
+        "version": "next",
+        "imageUrl": "https://yourdomain.eth/images/frame-image.png",
+        "button": {
+            "title": "Generate Invite Code",
+            "action": {
+                "type": "launch_frame",
+                "name": "Newcaster Invite",
+                "url": "https://yourdomain.eth",
+                "splashImageUrl": "https://yourdomain.eth/images/splash.png",
+                "splashBackgroundColor": "#eeeee4"
+            }
+        }
+    }' />
 </head>
 <body>
     <iframe src="https://newcaster.org/free-invite" title="Newcaster Invite Code Generator"></iframe>
